@@ -209,9 +209,6 @@ def create_rag_graph(vectorstore):
         return {"context": retrieved_docs}
 
     def generate(state: State):
-        # docs_content = "\n\n".join(doc.page_content for doc in state["context"])
-        # messages = prompt.invoke({"question": state["question"], "context": docs_content})
-        # Format context with source attribution
         formatted_context = ""
         for i, doc in enumerate(state["context"], 1):
             source = doc.metadata.get("source", "Unknown source")
@@ -310,7 +307,7 @@ if question and st.session_state.rag_graph:
 with st.sidebar:
     st.header("Instructions")
     st.write("""
-    1. **Upload documents**: Use the file uploader to add .txt or .pdf files
+    1. **Upload documents**: Use the file uploader to add .txt, .pdf, or .html files
     2. **Wait for processing**: Files will be chunked and indexed with embeddings
     3. **Remove files**: Click 'X' next to any file to remove it from the knowledge base
     4. **Ask questions**: Use the chat interface to ask about your documents
