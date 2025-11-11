@@ -163,7 +163,7 @@ Your responsibilites are to:
 
 ----------------------------------------------------------------------------------------------------
 
-Output Format:
+Structure your output as follows:
 ITINERARY REVIEW AND VALIDATION
 
 EXECUTIVE SUMMARY:
@@ -223,7 +223,7 @@ Your responsibilities are to:
 
 ----------------------------------------------------------------------------------------------------
 
-Output Format (IN MARKDOWN):
+Structure your output as follows:
 TRAVEL ITINERARY
 
 Destination: [Location]
