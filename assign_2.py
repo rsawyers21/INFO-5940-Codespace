@@ -183,14 +183,17 @@ Impact: [How this affects budget/timing/experience]
 
 Issue #2: [Continue for each identified problem]
 [...]
+
 UPDATED RECOMMENDATIONS:
 [Any additional suggestions to enhance the overall experience]
-FINAL VALIDATION STATUS:
 
+FINAL VALIDATION STATUS:
 Budget Accuracy: [Assessment]
 Timing Feasibility: [Assessment]
 Interest Alignment: [Assessment]
-Overall Recommendation: [Full refined itinerary]
+
+REFINED ITINERARY:
+[Full finalized intinerary (i.e. activites, expenses, etc.)]
 """
 
 PLANNER_INSTRUCTIONS = """
