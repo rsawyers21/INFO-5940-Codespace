@@ -9,3 +9,10 @@ I did not take a creative route to this assignment. Instead, I moreso just stuck
 
 # GenAI assistance
 I first wrote my prompts for the planner and reviewer agents, and then I asked claude to give me a structured output for the responses. So, the formatting is inspired by what claude responded to me with. That was the only time I used AI in this assignment.
+
+# Note:
+To run the app:
+1. Clone my forked repository
+2. Make sure you are in the res389-assignment2 branch
+3. Install dependencies: pip install -r requirements.txt
+4. Run the streamlit app: API_KEY="<your_api_key>" streamlit run assign2.py
