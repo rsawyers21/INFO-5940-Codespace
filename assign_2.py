@@ -260,7 +260,7 @@ reviewer_agent = Agent(
     name="Reviewer Agent",
     model="openai.gpt-4o",
     instructions=REVIEWER_INSTRUCTIONS.strip(),
-    tools=[internet_search]
+    tools=[internet_search] # added internet search tool
 )
 
 planner_agent = Agent(
